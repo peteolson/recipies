@@ -7,7 +7,7 @@ class Process
 
     public function __construct()
     {
-        $this->_xml = simplexml_load_file("data/recipies.xml");
+        $this->_xml = simplexml_load_file("recipies.xml");
 				
     }
 
